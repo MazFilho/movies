@@ -82,7 +82,7 @@ export class CadastroFilmesComponent implements OnInit {
       urlFoto: null,
       descricao: null,
       nota: null,
-      urlImdb: null,
+      urlIMDb: null,
       genero: null
     } as Filme;
   }
