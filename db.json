@@ -119,16 +119,6 @@
       "urlIMDb": "https://www.imdb.com/title/tt1431045/?ref_=fn_al_tt_1",
       "genero": "Comédia",
       "id": 12
-    },
-    {
-      "titulo": "Sem Foto (Teste)",
-      "urlFoto": null,
-      "dtLancamento": "2021-04-03T03:00:00.000Z",
-      "descricao": null,
-      "nota": 10,
-      "urlIMDb": null,
-      "genero": "Terror",
-      "id": 13
     }
   ]
 }

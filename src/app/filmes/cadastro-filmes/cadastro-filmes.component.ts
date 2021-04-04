@@ -7,6 +7,7 @@ import { Filme } from 'src/app/shared/models/filme';
 import { FilmesService } from 'src/app/core/filmes.service';
 import { AlertaComponent } from 'src/app/shared/components/alerta/alerta.component';
 import { Alerta } from 'src/app/shared/models/alerta';
+import { subscribeOn } from 'rxjs/operators';
 
 @Component({
   selector: 'dio-cadastro-filmes',
@@ -58,6 +59,10 @@ export class CadastroFilmesComponent implements OnInit {
     }
   }
 
+  voltar(): void {
+    this.router.navigateByUrl('filmes');
+  }
+
   reiniciarForm(): void {
     this.cadastro.reset();
   }
@@ -103,7 +108,7 @@ export class CadastroFilmesComponent implements OnInit {
           this.router.navigateByUrl('filmes');
         } else {
           this.reiniciarForm();
-        }
+        }               
       });
     },
     () => {
